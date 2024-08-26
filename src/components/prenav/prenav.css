@@ -1,0 +1,32 @@
+.socials {
+    background-color: #f866af;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.socials-email {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-email > span {
+    margin-top: 2px;
+    cursor: default;
+    user-select: none;
+}
+
+.mail-icon {
+    width: 36px;
+    margin-right: 5px;
+}
+
+.social-icons > * {
+    width: 44px;
+    margin: 0 10px;
+}
