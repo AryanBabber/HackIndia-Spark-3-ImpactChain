@@ -1,0 +1,77 @@
+.directory-container {
+    min-height: 1000px;
+    /* background-color: red; */
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 1300px;
+    margin-left: 300px;
+}
+
+.sub-container {
+    width: 350px;
+    height: 350px;
+    border-radius: 87px;
+    background-color: #f886af;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.d2 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+.directory-image {
+    position: relative;
+    /* z-index: 2; */
+    /* right: 10px; */
+}
+
+.sub-dir-container {
+    position: relative;
+    /* overflow: hidden; */
+    height: 150px;
+    width: 200px;
+    background-color: #f886af;
+    border-radius: 5px 87px 5px 176px;
+    top: -352px;
+    right: -162px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    /* text-decoration: none; */
+}
+
+.no-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.donate-btn {
+    font-size: 24px;
+    color: #000;
+}
+
+button {
+    width: 200px;
+    height: 70px; 
+}
+
+.sub-container > h1, h2 {
+    color: black;
+    font-size: 24px;
+    
+}

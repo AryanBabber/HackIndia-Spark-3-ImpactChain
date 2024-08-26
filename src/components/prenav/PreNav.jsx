@@ -1,10 +1,9 @@
 import { Fragment } from "react";
-import "./prenav.css"
-import {ReactComponent as FacebookImage} from "../../assets/logo-facebook.svg"
-import {ReactComponent as TwitterImage} from "../../assets/logo-twitter.svg"
-import {ReactComponent as InstagramImage} from "../../assets/logo-instagram.svg"
-import {ReactComponent as MailImage} from "../../assets/logo-mail.svg"
-
+import "./prenav.css";
+import { ReactComponent as FacebookImage } from "../../assets/logo-facebook.svg";
+import { ReactComponent as TwitterImage } from "../../assets/logo-twitter.svg";
+import { ReactComponent as InstagramImage } from "../../assets/logo-instagram.svg";
+import { ReactComponent as MailImage } from "../../assets/logo-mail.svg";
 
 const PreNav = () => {
     return (

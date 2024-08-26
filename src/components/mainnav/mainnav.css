@@ -1,6 +1,6 @@
 .main-nav {
     width: 100vw;
-    height: 141px;
+    height: 130px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,8 +8,9 @@
 }
 
 .logo {
-    width: 174px;
+    width: 150px;
     max-width: 20vw;
+    height: full;
     margin-left: 20px;
 }
 
@@ -18,9 +19,9 @@
     flex-direction: row;
     list-style-type: none;
     gap: 30px;
-    /* align-items: center; */
+    align-items: center;
     margin-right: 30px;
-    margin-top: -30px;
+    height: 100%;
 }
 
 .nav > * {
@@ -37,22 +38,3 @@
 .nav > *:hover {
     --d: 100%;
 }
-
-/* .unexpected-7 {
-  }
-  
-  .unexpected-7:hover {
-  } 
-  
-  basic-3 {
-  background: 
-      linear-gradient(currentColor 0 0) 
-      bottom /var(--d, 0) 3px 
-      no-repeat;
-  transition:0.5s;
-}
-.basic-3:hover {
-  --d: 100%;
-}
-  
-  */

@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { Fragment } from "react";
+import Directory from "../../components/directory/Directory";
+import { Outlet } from "react-router";
 
 const Home = () => {
-  return (
-    <div>h</div>
-  )
-}
+    return (
+        <Fragment>
+            <Directory />
+            <Outlet />
+        </Fragment>
+    );
+};
 
-export default Home
+export default Home;
