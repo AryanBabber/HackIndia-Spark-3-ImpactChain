@@ -8,7 +8,7 @@ const Footer = () => {
         <Fragment>
             <Outlet />
             <div className="footer-container">
-                <div className="footer-head"></div>
+                {/* <div className="footer-head"></div> */}
                 <h1 className="footer-header">
                     <span>Copyright 2024. All rights reserved</span>|
                     <Link to="/disclaimer">Disclaimer</Link>|

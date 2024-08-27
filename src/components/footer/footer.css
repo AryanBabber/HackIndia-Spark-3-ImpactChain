@@ -1,30 +1,32 @@
 .footer-container {
     background-color: #f866af;
     width: 100vw;
-    height: 300px;
+    height: 500px;
+    border-radius: 50%  50% 0 0;
     /* position: relative; */
-    overflow-anchor: hidden;
+    /* overflow-anchor: hidden; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 15rem;
+    overflow-y: visible;
 }
 
-.footer-head {
-    /* position: absolute; */
+/* .footer-head {
     background-color: inherit;
     height: 60vh;
     width: 100%;
-    /* z-index: 1; */
     border-radius: 50% 50% 0 0;
+    background-color: black;
     bottom: 10px;
-}
+    margin-bottom: 200px;
+} */
 
 .footer-header {
     /* color: #fff; */
     /* text-align: center; */
-    position: absolute;
     z-index: 2;
+    margin-top: 10vh;
 }
 
 .footer-header * {

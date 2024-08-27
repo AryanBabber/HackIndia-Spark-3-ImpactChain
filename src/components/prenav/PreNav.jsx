@@ -11,7 +11,7 @@ const PreNav = () => {
             <div className="socials">
                 <h3 className="socials-email">
                     <MailImage className="mail-icon" />
-                    <span>thesamatva@gmail.com</span>
+                    <span>thesamatva13@gmail.com</span>
                 </h3>
                 <div className="social-icons">
                     <FacebookImage className="facebook" />

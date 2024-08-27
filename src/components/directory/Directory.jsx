@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Directory = () => {
     return (
         <div className="directory-container">
-            <Link to="/" className="sub-container">
+            <Link to="/activities   " className="sub-container">
                 <DirectoryImage1 className="directory-image" />
                 <div className="sub-dir-container">
                     <p className="content">ACTIVITIES</p>

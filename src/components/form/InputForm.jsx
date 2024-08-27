@@ -1,9 +1,15 @@
-import React from 'react'
+import { useState } from "react";
 
 const InputForm = () => {
-  return (
-    <div>InputForm</div>
-  )
-}
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    };
 
-export default InputForm
+    return (
+        <form onSubmit={handleSubmit}>
+            <div className=""></div>
+        </form>
+    );
+};
+
+export default InputForm;

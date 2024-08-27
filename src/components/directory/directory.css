@@ -18,6 +18,7 @@
     background-color: #f886af;
     cursor: pointer;
     text-decoration: none;
+    overflow: visible;
 }
 
 .d2 {
@@ -35,22 +36,22 @@
 .sub-dir-container {
     position: relative;
     /* overflow: hidden; */
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
     background-color: #f886af;
     border-radius: 5px 87px 5px 176px;
     top: -352px;
-    right: -162px;
+    right: -112px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-wrap: wrap;
+    /* padding-left: -4vw; */
 }
 
 .content {
-    font-size: 20px;
     font-weight: 500;
     color: #000;
-    /* text-decoration: none; */
 }
 
 .no-img {

@@ -7,7 +7,7 @@ const MainNav = () => {
     return (
         <Fragment>
             <div className="main-nav">
-                <MainLogo className="logo" />
+                <Link to="/"><MainLogo className="logo" /></Link>
                 <ul className="nav">
                     <Link to="/activities">Activities</Link>
                     <Link to="/services">Services</Link>

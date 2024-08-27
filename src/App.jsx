@@ -6,6 +6,7 @@ import Home from "./routes/home/Home";
 import Footer from "./components/footer/Footer";
 import FooterHelpers from "./components/footerHelpers/FooterHelpers";
 import About from "./routes/about/About";
+import Activities from "./routes/activities/Activities";
 
 const App = () => {
     return (
@@ -14,9 +15,16 @@ const App = () => {
                 <Route path="/" element={<Hero />}>
                     <Route path="/" element={<Footer />}>
                         <Route index element={<Home />} />
-                        <Route path="/about-us" element={<About/>} />
-                        <Route path="/disclaimer" element={<FooterHelpers name="Disclaimer"/>}/>
-                        <Route path="/privacy-policy" element={<FooterHelpers name="Privacy-Policy"/>}/>
+                        <Route path="/activities" element={<Activities />} />
+                        <Route path="/about-us" element={<About />} />
+                        <Route
+                            path="/disclaimer"
+                            element={<FooterHelpers name="Disclaimer" />}
+                        />
+                        <Route
+                            path="/privacy-policy"
+                            element={<FooterHelpers name="Privacy-Policy" />}
+                        />
                     </Route>
                 </Route>
             </Routes>
