@@ -1,0 +1,24 @@
+.contact-us-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 80vw;
+    border: 1px solid black;
+    margin-left: 10vw;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.input {
+    width: 400px;
+    height: 50px;
+}
+
+.form-name-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
