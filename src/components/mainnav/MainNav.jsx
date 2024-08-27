@@ -10,10 +10,9 @@ const MainNav = () => {
                 <Link to="/"><MainLogo className="logo" /></Link>
                 <ul className="nav">
                     <Link to="/activities">Activities</Link>
-                    <Link to="/services">Services</Link>
-                    <Link to="/accomplishments">Our Accomplishments</Link>
+                    <Link to="/contribute">Contribute</Link>
+                    <Link to="/contact-us">Contact us</Link>
                     <Link to="/about-us">About us</Link>
-                    <Link to="/donate">Donate</Link>
                 </ul>
             </div>
         </Fragment>

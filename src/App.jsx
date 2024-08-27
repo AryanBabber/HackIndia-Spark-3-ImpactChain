@@ -7,6 +7,8 @@ import Footer from "./components/footer/Footer";
 import FooterHelpers from "./components/footerHelpers/FooterHelpers";
 import About from "./routes/about/About";
 import Activities from "./routes/activities/Activities";
+import InputForm from "./components/form/InputForm";
+import Contribute from "./routes/contribute/Contribute";
 
 const App = () => {
     return (
@@ -17,6 +19,8 @@ const App = () => {
                         <Route index element={<Home />} />
                         <Route path="/activities" element={<Activities />} />
                         <Route path="/about-us" element={<About />} />
+                        <Route path="/contact-us" element={<InputForm />} />
+                        <Route path="/contribute" element={<Contribute />} />
                         <Route
                             path="/disclaimer"
                             element={<FooterHelpers name="Disclaimer" />}
