@@ -1,5 +1,6 @@
 import React from "react";
 import "./contribution.css";
+import { ReactComponent as TempBtn } from "../../assets/temp-btn.svg";
 
 const Contribution = () => {
     return (
@@ -9,12 +10,27 @@ const Contribution = () => {
             </div>
 
             <div className="contribution-followup-container">
-                <h2 className="contribution-followup">Contribution can be done in 3 ways:-</h2>
+                <h2 className="contribution-followup">
+                    Contribution can be done in 3 ways:-
+                </h2>
             </div>
             <div className="donation-options">
-                <div className="donation-option-left"></div>
-                {/* <div className="dontation-option-right"></div>
-                <div className="donation-option-left"></div> */}
+                <div className="donation-option-left-1">
+                    <div className="first-way">
+                        <h1>Donate here:</h1>
+                        <TempBtn className="temp-btn" />
+                    </div>
+                </div>
+                <div className="donation-option-right">
+                    <h1 className="second-way">
+                        Contribute by donating things
+                    </h1>
+                </div>
+                <div className="donation-option-left-2">
+                    <h1 className="third-way">
+                        Contribute by being a volunteer
+                    </h1>
+                </div>
             </div>
         </div>
     );
