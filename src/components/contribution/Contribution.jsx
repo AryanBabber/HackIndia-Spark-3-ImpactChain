@@ -1,6 +1,7 @@
 import React from "react";
 import "./contribution.css";
 import { ReactComponent as TempBtn } from "../../assets/temp-btn.svg";
+import { Link } from "react-router-dom";
 
 const Contribution = () => {
     return (
@@ -18,7 +19,9 @@ const Contribution = () => {
                 <div className="donation-option-left-1">
                     <div className="first-way">
                         <h1>Donate here:</h1>
-                        <TempBtn className="temp-btn" />
+                        <Link to="/donate">
+                            <TempBtn className="temp-btn" />
+                        </Link>
                     </div>
                 </div>
                 <div className="donation-option-right">

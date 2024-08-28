@@ -69,10 +69,16 @@
 button {
     width: 200px;
     height: 70px; 
+    overflow: visible;
 }
 
 .sub-container > h1, h2 {
     color: black;
     font-size: 24px;
     
+}
+
+.donate-btn {
+    width: 300px;
+    height: 100px;
 }
