@@ -9,6 +9,7 @@ import About from "./routes/about/About";
 import Activities from "./routes/activities/Activities";
 import InputForm from "./components/form/InputForm";
 import Contribute from "./routes/contribute/Contribute";
+import Donation from "./components/donation/Donation";
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                         <Route path="/about-us" element={<About />} />
                         <Route path="/contact-us" element={<InputForm />} />
                         <Route path="/contribute" element={<Contribute />} />
+                        <Route path="/donate" element={<Donation/>} />
                         <Route
                             path="/disclaimer"
                             element={<FooterHelpers name="Disclaimer" />}
